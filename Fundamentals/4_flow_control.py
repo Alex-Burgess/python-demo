@@ -62,4 +62,84 @@ while True:
 
 """
 Conditionals and Booleans
+
+Equal: ==
+Not Equal: !=
+Greater than: >
+Less than: <
+Greater or Equal: >=
+Less or Equal: <=
+Object identity: is
 """
+
+# A string comparison
+language = 'Java'
+
+if language == 'Python':
+    print('Language is Python')
+elif language == 'Bash':
+    print('Language is Bash')
+else:
+    print('Language was not matched')
+
+# A number comparison
+number = 5
+
+if number == 4:
+    print('Number conditional was True')
+else:
+    print('Number conditional was Not True')
+
+
+# Structural Pattern Matching - python version 3.10 (released 4th October)
+# status = 404
+#
+# match status:
+#     case 400:
+#         return "Bad request"
+#     case 404:
+#         return "Not found"
+#     case 418:
+#         return "I'm a teapot"
+#     case _:
+#         return "Something's wrong with the internet"
+
+# Booleans
+user = 'Admin'
+logged_in = True
+
+if user == 'Admin' and logged_in:
+    print('Admin user is logged in')
+else:
+    print('Admin user is not logged in')
+
+if not logged_in:
+    print("Please log in")
+else:
+    print("Welcome")
+
+
+# Object identity - Two objects can be equal but not be the same object in memory
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a == b)
+print(id(a), id(b))
+print(a is b)
+
+b = a
+print(id(a), id(b))
+print(a is b)
+
+
+# False values:
+
+# condition = False
+# condition = None
+# condition = 0
+condition = ''  # Or any empty sequence, e.g. '', (), []
+# condition = {} # Empty mapping
+
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
