@@ -90,3 +90,18 @@ print(sentence)
 
 sentence = 'The year is {0:%Y} and the month is {0:%B}'.format(my_date)
 print(sentence)
+
+
+'''
+F Strings
+'''
+person = {'name': 'Jenn', 'age': 23}
+
+# format
+sentence = 'My name is {0[name]} and I am {0[age]} years old.'.format(person)
+print(sentence)
+
+# f-string
+
+sentence = f"My name is {person['name']} and I am {person['age']} years old."
+print(sentence)
