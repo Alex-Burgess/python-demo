@@ -10,20 +10,20 @@ except Exception:
 
 
 # Catch more specific or expected exceptions
-try:
-    f = open('Fundamentals/test_file.txt')
-    var = bad_var
-except FileNotFoundError:
-    print('Sorry. This file does not exist!')
+# try:
+#     f = open('Fundamentals/test_file.txt')
+#     var = bad_var
+# except FileNotFoundError:
+#     print('Sorry. This file does not exist!')
 
 # Chain exceptions
-try:
-    f = open('Fundamentals/test_file.txt')
-    var = bad_var
-except FileNotFoundError:
-    print('Sorry. This file does not exist!')
-except Exception:
-    print('Sorry. Something went wrong!')
+# try:
+#     f = open('Fundamentals/test_file.txt')
+#     var = bad_var
+# except FileNotFoundError:
+#     print('Sorry. This file does not exist!')
+# except Exception:
+#     print('Sorry. Something went wrong!')
 
 # Print the exception error message
 try:
