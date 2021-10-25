@@ -76,4 +76,8 @@ payload = {'localAuthorityId': authority_id}
 resp = requests.get(uri, params=payload, headers={'x-api-version': '2'}, timeout=10)
 establishments = resp.json()['establishments']
 
-print(json.dumps(establishments[0], indent=4, sort_keys=True))
+# print(json.dumps(establishments[0], indent=4, sort_keys=True))
+
+# Or dump to file:
+with open('establishments.json', 'w') as f:
+    json.dump(establishments, f, indent=4)
