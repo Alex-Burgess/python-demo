@@ -1,8 +1,8 @@
-"""
-Strings
-"""
+###################################
+# 1. Stings
+###################################
 
-# Strings can be single of double quotes
+# Strings can be single or double quotes
 mystring = 'Hello, World!'
 print(mystring)
 
@@ -19,10 +19,9 @@ name = 'Alex'
 print(statement + name)
 
 
-"""
-Numbers
-"""
-
+###################################
+# 2. Numbers
+###################################
 # Integers and floats can be defined without declaring their types
 myint = 7
 print(myint)

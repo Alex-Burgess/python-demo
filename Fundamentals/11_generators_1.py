@@ -1,10 +1,7 @@
-'''
-Generator basics
-'''
-
-'''
-Basic function example, which we'll later convert to a generator
-'''
+###################################
+# Generator basics
+# Basic function example, which we'll later convert to a generator
+###################################
 
 
 def square_numbers(nums):
@@ -37,9 +34,10 @@ my_nums = square_numbers([1, 2, 3, 4, 5])
 for num in my_nums:
     print(num)
 
-'''
-Writing a generator as a list comprehension
-'''
+
+###################################
+# Writing a generator as a list comprehension
+###################################
 # List comprehension
 my_nums = [x*x for x in [1, 2, 3, 4, 5]]
 print(my_nums)
@@ -52,13 +50,12 @@ for num in my_nums:
     print(num)
 
 
-'''
-Example 1: Reading large files
-https://realpython.com/introduction-to-python-generators/
-
-If the file was very large, loading everying into memory could cause a MemoryError.
-By using a generator, you can open the file, iterate through it, and yield a row.
-'''
+###################################
+# Example 1: Reading large files
+# https://realpython.com/introduction-to-python-generators/
+# If the file was very large, loading everying into memory could cause a MemoryError.
+# By using a generator, you can open the file, iterate through it, and yield a row.
+###################################
 # def csv_reader(file_name):
 #     for row in open(file_name, "r"):
 #         yield row
@@ -67,10 +64,10 @@ By using a generator, you can open the file, iterate through it, and yield a row
 # csv_gen = (row for row in open(file_name))
 
 
-'''
-Example 2: Generating an Infinite sequence
-range() is a finite sequence, using a generator you can create an infinite sequence.
-'''
+###################################
+# Example 2: Generating an Infinite sequence
+# range() is a finite sequence, using a generator you can create an infinite sequence.
+###################################
 # def infinite_sequence():
 #     num = 0
 #     while True:

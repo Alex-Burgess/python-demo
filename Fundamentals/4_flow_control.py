@@ -1,7 +1,6 @@
-"""
-For Loops
-"""
-
+###################################
+# For Loops
+###################################
 
 # simple loop
 nums = [1, 2, 3, 4, 5]
@@ -60,17 +59,18 @@ while True:
     print(x)
     x += 1
 
-"""
-Conditionals and Booleans
 
-Equal: ==
-Not Equal: !=
-Greater than: >
-Less than: <
-Greater or Equal: >=
-Less or Equal: <=
-Object identity: is
-"""
+###################################
+# Conditionals and Booleans
+#
+# Equal: ==
+# Not Equal: !=
+# Greater than: >
+# Less than: <
+# Greater or Equal: >=
+# Less or Equal: <=
+# Object identity: is
+###################################
 
 # A string comparison
 language = 'Java'

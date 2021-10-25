@@ -1,6 +1,6 @@
-'''
-Exception handling
-'''
+###################################
+# Exception handling
+###################################
 
 # Basic try, except block
 try:

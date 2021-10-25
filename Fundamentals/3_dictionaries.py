@@ -1,6 +1,6 @@
-"""
-Dictionaries
-"""
+###################################
+# Dictionaries
+###################################
 
 # Define a dictionary
 student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}

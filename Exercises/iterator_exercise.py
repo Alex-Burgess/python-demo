@@ -18,9 +18,9 @@ Remember an iterator is an object with state so that it remembers where it is du
 '''
 
 
-'''
-Class Solution
-'''
+###################################
+# Class Solution
+###################################
 
 
 class Sentence:
@@ -64,11 +64,11 @@ print(next(my_sentence))
 # print(next(my_sentence))   # Will raise stop iteration exception
 
 
-'''
-Generator Solution
-
-This is a lot simpler because it takes care of the iter and next methods
-'''
+###################################
+# Generator Solution
+#
+# This is a lot simpler because it takes care of the iter and next methods
+###################################
 
 
 def g_sentence(sentence):

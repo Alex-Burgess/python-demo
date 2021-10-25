@@ -1,7 +1,6 @@
-'''
-Decorators
-'''
-
+###################################
+# Decorators
+###################################
 
 # See inner and outer functions
 def outer_function():
@@ -57,9 +56,9 @@ def display_2():
 
 display_2()
 
-'''
-Decorator demo 2
-'''
+###################################
+# Decorator demo 2
+###################################
 # def another_function(func):
 #     """
 #     A function that accepts another function

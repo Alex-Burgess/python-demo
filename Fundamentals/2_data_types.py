@@ -1,6 +1,6 @@
-"""
-Lists
-"""
+###################################
+# Lists
+###################################
 # Empty list definition
 empty_list = []
 print(empty_list)
@@ -95,9 +95,9 @@ new_list = course_str.split(',')
 print(new_list)
 
 
-"""
-Tuples
-"""
+###################################
+# Tuples
+###################################
 
 # empty tuple definition
 empty_tuple = ()
@@ -117,9 +117,10 @@ tuple_1 = ('Math', 'Physics', 'History', 'Science')
 tuple_2 = tuple_1
 # tuple_1[0] = 'Art'    # This will cause an error
 
-"""
-Sets
-"""
+
+###################################
+# Sets
+###################################
 
 # empty set definition
 # empty_set = {}    # No this is a dict

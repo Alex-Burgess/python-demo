@@ -1,14 +1,13 @@
-'''
-LEGB
-Local, Enclosing, Global, Built-in
-'''
+###################################
+# LEGB - Local, Enclosing, Global, Built-in
+###################################
 
-'''
-Basic example of global and local
-result:
-local y
-global x
-'''
+###################################
+# Basic example of global and local
+# result:
+# local y
+# global x
+###################################
 # x = 'global x'
 #
 #
@@ -23,12 +22,12 @@ global x
 # #print(y)    # This will give a name 'y' is not defined error.
 
 
-'''
-Demonstrating local is a high order than global.
-result:
-local x
-global x
-'''
+###################################
+# Demonstrating local is a high order than global.
+# result:
+# local x
+# global x
+###################################
 # x = 'global x'
 #
 #
@@ -40,12 +39,12 @@ global x
 # test()
 # print(x)    # Prints the global variable x
 
-'''
-Demonstrating global keyword.
-result:
-local x
-local x
-'''
+###################################
+# Demonstrating global keyword.
+# result:
+# local x
+# local x
+###################################
 # x = 'global x'
 #
 #
@@ -59,17 +58,17 @@ local x
 # print(x)    # Prints the global variable x
 
 
-'''
-Print out some Built-in names
-'''
+###################################
+# Print out some Built-in names
+###################################
 # import builtins
 # print(dir(builtins))
 
 
-'''
-An example of overriding a built in name.  The min function is a built function for finding the min value.
-If we override it, our function will use the global function, before the built-in function and we get an error.
-'''
+###################################
+# An example of overriding a built in name.  The min function is a built function for finding the min value.
+# If we override it, our function will use the global function, before the built-in function and we get an error.
+###################################
 # def min():
 #     pass
 #
@@ -78,9 +77,9 @@ If we override it, our function will use the global function, before the built-i
 # print(m)
 
 
-'''
-Enclosing variables
-'''
+###################################
+# Enclosing variables
+###################################
 # def outer():
 #     x = 'outer x'
 #
@@ -94,9 +93,9 @@ Enclosing variables
 # outer()
 
 
-'''
+###################################
 nonlocal example
-'''
+###################################
 
 
 def outer():

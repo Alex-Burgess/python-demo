@@ -1,8 +1,8 @@
 from operator import attrgetter
 
-'''
-Sorting lists
-'''
+###################################
+# Sorting lists
+###################################
 li = [9, 1, 8, 2, 7, 3, 6, 4, 5]
 
 # Create a new variable with sorted list
@@ -16,27 +16,27 @@ li.sort()
 # li.sort(reverse=True)
 print('Original Variable: \t', li)
 
-'''
-Sorting tuples
-'''
+
+###################################
+# Sorting tuples
+###################################
 tup = (9, 1, 8, 2, 7, 3, 6, 4, 5)
 s_tup = sorted(tup)
 print('Tuple\t', s_tup)     # Note this is a list
 print('Tuple\t', tuple(s_tup))     # Note this is a tuple
 
-'''
-Sorting dicts
-'''
+
+###################################
+# Sorting dicts
+###################################
 di = {'name': 'corey', 'job': 'programming', 'age': None, 'os': 'Mac'}
 s_di = sorted(di)
 print('Sorted Dict keys: \t', s_di)
 
 
-'''
-Sorting objects with named attributes - version 1 - sorting function
-'''
-
-
+###################################
+# Sorting objects with named attributes - version 1 - sorting function
+###################################
 class Employee():
     def __init__(self, name, age, salary):
         self.name = name

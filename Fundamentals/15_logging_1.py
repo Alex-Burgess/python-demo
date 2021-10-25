@@ -1,8 +1,8 @@
-'''
-Logging
-
-Logging in python is built in, you just need to import the package.
-'''
+###################################
+# Logging
+#
+# Logging in python is built in, you just need to import the package.
+###################################
 import logging
 
 # By default it logs all messages of warning severity or higher.  The level can be changed.

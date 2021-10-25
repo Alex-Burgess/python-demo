@@ -1,10 +1,12 @@
-"""
-modules
-"""
+###################################
+# modules
+###################################
 import random
 import sys
 
+###################################
 # Basic import
+###################################
 # import my_module
 #
 # courses = ['History', 'Math', 'Physics', 'CompSci']
@@ -13,7 +15,9 @@ import sys
 # print(index)
 
 
+###################################
 # Import as
+###################################
 # import my_module as mm
 #
 # courses = ['History', 'Math', 'Physics', 'CompSci']
@@ -22,7 +26,9 @@ import sys
 # print(index)
 
 
+###################################
 # import from
+###################################
 # from my_module import find_index
 # courses = ['History', 'Math', 'Physics', 'CompSci']
 #
@@ -30,7 +36,9 @@ import sys
 # print(index)
 
 
+###################################
 # import from with as
+###################################
 from my_module import find_index as fi
 courses = ['History', 'Math', 'Physics', 'CompSci']
 

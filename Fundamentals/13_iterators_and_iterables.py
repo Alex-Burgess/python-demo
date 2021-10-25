@@ -1,10 +1,10 @@
-'''
-Iterators and iterables.
-
-An iterable is something that can be looped over, e.g. a list.
-An iterator is an object with a state so that it remembers where it is during iteration.
-An iterator can also be an iterable.
-'''
+###################################
+# Iterators and iterables.
+#
+# An iterable is something that can be looped over, e.g. a list.
+# An iterator is an object with a state so that it remembers where it is during iteration.
+# An iterator can also be an iterable.
+###################################
 
 # Iterable
 nums = [1, 2, 3]

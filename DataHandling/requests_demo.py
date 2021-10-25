@@ -1,9 +1,9 @@
 import requests
 import json
 
-'''
-Request the content of a url, which can be used to demonstrate retrieving html.
-'''
+###################################
+# Request the content of a url, which can be used to demonstrate retrieving html.
+###################################
 # r = requests.get('https://xkcd.com/353/')
 
 # return all the properties and methods of the specified object.
@@ -16,9 +16,9 @@ Request the content of a url, which can be used to demonstrate retrieving html.
 # print(r.text)
 
 
-'''
-Request an image url
-'''
+###################################
+# Request an image url
+###################################
 # r = requests.get('https://imgs.xkcd.com/comics/python.png')
 
 # Print the bytes content of the image
@@ -29,9 +29,9 @@ Request an image url
 #     f.write(r.content)
 
 
-'''
-How to check the api request was successful
-'''
+###################################
+# How to check the api request was successful
+###################################
 
 # r = requests.get('https://imgs.xkcd.com/comics/python.png')
 
@@ -42,17 +42,17 @@ How to check the api request was successful
 # print(r.ok)
 
 
-'''
-Adding url parameters
-'''
+###################################
+# Adding url parameters
+###################################
 payload = {'page': 2, 'count': 25}
 # r = requests.get('https://httpbin.org/get', params=payload)
 # print(r.text)
 
 
-'''
-Retrieving the json response as a python dict
-'''
+###################################
+# Retrieving the json response as a python dict
+###################################
 # payload = {'username': 'alex', 'password': 'testing'}
 # r = requests.post('https://httpbin.org/post', data=payload)
 # r_dict = r.json()
@@ -60,16 +60,16 @@ Retrieving the json response as a python dict
 # print(r_dict['form'])
 
 
-'''
-Add a timeout
-'''
+###################################
+# Add a timeout
+###################################
 # An exception will be thrown:
 # r = requests.get('https://httpbin.org/delay/3', timeout=2)
 
 
-'''
-Food hygene ratings example
-'''
+###################################
+# Food hygene ratings example
+###################################
 uri = 'http://api.ratings.food.gov.uk/Establishments'
 authority_id = 1
 payload = {'localAuthorityId': authority_id}
